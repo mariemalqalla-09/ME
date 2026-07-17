@@ -1,0 +1,168 @@
+body{
+    background-color: rgb(247, 211, 166);
+    h1{
+       text-align:center;
+       color: #1e5e75;
+       font-size:32px;
+       font-family:Georgia, 'Times New Roman', serif;
+       font-style: italic;
+    }
+    h2,
+    h3,
+    h4{
+       font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       color:#1e5e75
+    }
+    h2,
+    h4{
+      font-size: 30px;
+    }
+    p{
+       font-size: 18px;
+       font-weight:700;
+       line-height: 1.6;
+       color:rgb(86, 2, 68)
+    }
+    }
+    button{
+      background-color:#1e5e75;
+      color:bisque;
+      padding: 17px 20px;
+      border-radius: 15px;
+      cursor: pointer;
+      transition:0.3s;
+      margin-top:10px;
+    }
+    button:hover{
+      background-color:#2e82a1;
+      color:bisque;
+    }
+    a{
+      color: rgb(78, 40, 81);
+      text-decoration: underline;
+    }
+    a:hover{
+      color:#1e5e75;
+    }
+    h1,
+    h2,
+    h3,
+    p{
+      margin-bottom:15px;
+    }
+    form{
+      margin-top:40px;
+    }
+    label{
+      font-weight:bold;
+      display: block;
+      margin-bottom: 8px;
+    }
+    input{
+      display: block;
+      width: 100%;
+      padding:10px;
+      margin-bottom:16px;
+      border: 1px solid #cccccc;
+      border-radius: 8px;
+    }
+    input:focus{
+      outline:none;
+      border-color:#1e5e75;
+      background-color:white;
+    }
+   #hero{
+      padding:30px 150px;
+      border-radius:12px;
+      align-items:center;
+      gap:50px;
+      position: relative;
+    }
+    .badge{
+      position:absolute;
+      top: 16px;
+      right: 16px;
+      background-color:#713865c6;
+      color:bisque;
+      padding:8px 12px;
+      border-radius: 20px;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .logo{
+      margin-left: 10px;
+    }
+    .hero-text{
+      text-align:center;
+    }
+    .highlight{
+      color:rgb(86, 2, 68);
+      font-weight:700;
+    }
+    .card{
+      padding: 30px;
+      margin-top: 15px;
+      background-color:#9e5a8f82;
+      border-radius: 10px;
+    }
+    #hero img{
+      width: 260px;
+      margin-top:20px;
+    }
+    #cards img{
+      border-radius:15px;
+      width: 100%;
+    }
+    .cards-container{
+      display: flex;
+      gap: 20px;
+      width: 100%;
+    }
+    section{
+      margin-top: 40px;
+    }
+    .navbar{
+      padding:20px 30px;
+      display: flex;
+      justify-content:space-between;
+      align-items:center;
+      border-radius: 20px;
+    }
+    .nav-links{
+      display: flex;
+      gap:20px;
+    }
+    .nav-links a{
+      color:rgb(78, 40, 81);
+    }
+    .nav-links a:hover{
+      color:#1e5e75;
+    }
+    .banner{
+      position: relative;
+      margin-top:40px;
+      border-radius:15px;
+      overflow:hidden;
+    }
+    .banner img{
+      width:70%;
+      border-radius:15px;
+      display:block;
+    }
+    .banner-text{
+      position:absolute;
+      top:40px;
+      left:40px;
+      max-width:400px;
+    }
+    .banner h2{
+      color: white;
+    }
+    .banner p{
+      color: white;
+    }
+    .banner button{
+      background-color:#793d6cf1    
+    }
+    .banner button:hover{
+      background-color:#a85394e0;
+    }
