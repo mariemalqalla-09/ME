@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(247, 230, 207);
+    h1{
+       text-align:center;
+       color: #1e5e75;
+       font-size:32px;
+       font-family:Georgia, 'Times New Roman', serif;
+       font-style: italic;
+    }
+    h2,
+    h3,
+    h4{
+       font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       color:#1e5e75
+    }
+    p{
+       font-size: 18px;
+       line-height: 1.6;
+    }
+    button{
+      background-color:#1e5e75;
+      color:bisque;
+      padding: 22px 20px;
+      border: solid 1.5px;
+      border-radius: 8px;
+      border-color:#1e5e75;
+      cursor: pointer;
+      transition:0.3s;
+    }
+    button:hover{
+      background-color:#1e5e75;
+      color:bisque;
+    }
+    a{
+      color: rgb(28, 17, 40);
+      text-decoration: underline;
+    }
+    a:hover{
+      color:bisque;
+      background-color:#1e5e75
+    }
+    h1,
+    h2,
+    h3,
+    p{
+      margin-bottom:15px;
+    }
+   
+    form{
+      margin-top:40px;
+    }
+   #hero{
+      background-color:rgb(247, 230, 207);
+      padding: 30px 150px;
+      border-radius:12px;
+    }
+    .highlight{
+      color:rgb(86, 2, 68);
+      font-weight:700;
+    }
+    .card{
+      padding: 30px;
+      margin-top: 20px;
+    }
+}
